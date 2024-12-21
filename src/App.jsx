@@ -5,6 +5,8 @@ import { Navbar } from "./components/Navbar/Navbar"
 import { Cover } from "./components/Cover/Cover"
 import { About } from "./components/About/About"
 import { Proyects } from "./components/Proyects/Proyects"
+import { Techno } from "./components/Tech/Techno"
+import { Footer } from "./components/Footer/Footer"
 
 
 export function App() {
@@ -26,12 +28,8 @@ export function App() {
         <Cover/>
         <About/>
         <Proyects/>
-        {/* <Cover/>
-        <About/>
-        <Proyects/>
-        <Tecnology/>
-        <Info/>
-        <Footer/> */}
+        <Techno/>
+        <Footer/>
       </div>
   )
 }
