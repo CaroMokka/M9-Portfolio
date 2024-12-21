@@ -4,6 +4,8 @@ import './App.css'
 import { Navbar } from "./components/Navbar/Navbar"
 import { Cover } from "./components/Cover/Cover"
 import { About } from "./components/About/About"
+import { Proyects } from "./components/Proyects/Proyects"
+
 
 export function App() {
   const [scroll, setScroll] = useState(0);
@@ -23,6 +25,7 @@ export function App() {
         <Navbar isScrolling={scroll}/>
         <Cover/>
         <About/>
+        <Proyects/>
         {/* <Cover/>
         <About/>
         <Proyects/>
